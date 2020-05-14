@@ -16,6 +16,7 @@ class PlaceCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      width: 140,
       margin: EdgeInsets.only(
         left: 40,
       ),
@@ -43,6 +44,7 @@ class PlaceCard extends StatelessWidget {
               style: TextStyle(
                 fontSize: 18,
               ),
+              overflow: TextOverflow.ellipsis,
             ),
           ),
           Padding(
@@ -60,6 +62,7 @@ class PlaceCard extends StatelessWidget {
                   style: TextStyle(
                     color: Colors.black26,
                   ),
+                  overflow: TextOverflow.ellipsis,
                 ),
               ],
             ),
